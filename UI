@@ -1,0 +1,82 @@
+
+local tbl = {}
+
+tbl.ScreenGui = Instance.new("ScreenGui")
+tbl.Frame = Instance.new("Frame")
+tbl.TextBox = Instance.new("TextBox")
+tbl.Autogunsbtn = Instance.new("TextButton")
+tbl.Antitaserbtn = Instance.new("TextButton")
+tbl.AutoRespawnbtn = Instance.new("TextButton")
+
+
+tbl.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+tbl.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+tbl.Frame.Parent = ScreenGui
+tbl.Frame.AnchorPoint = Vector2.new(0, 0.5)
+tbl.Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 38)
+tbl.Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tbl.Frame.BorderSizePixel = 0
+tbl.Frame.Position = UDim2.new(0.00309789344, 0, 0.5, 0)
+tblFrame.Size = UDim2.new(0.123915739, 0, 0.314861447, 0)
+
+tbl.TextBox.Parent = Frame
+tbl.TextBox.AnchorPoint = Vector2.new(0.5, 0)
+tbl.TextBox.BackgroundColor3 = Color3.fromRGB(53, 53, 57)
+tbl.TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tbl.TextBox.BorderSizePixel = 0
+tbl.TextBox.Position = UDim2.new(0.5, 0, 0.0200000014, 0)
+tbl.TextBox.Size = UDim2.new(0.875, 0, 0.200000018, 0)
+tbl.TextBox.Font = Enum.Font.SourceSans
+tbl.TextBox.Text = "cmds"
+tbl.TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+tbl.TextBox.TextScaled = true
+tbl.TextBox.TextSize = 14.000
+tbl.TextBox.TextWrapped = true
+
+tbl.Autogunsbtn.Name = "Autogunsbtn"
+tbl.Autogunsbtn.Parent = Frame
+tbl.Autogunsbtn.AnchorPoint = Vector2.new(0.5, 0)
+tbl.Autogunsbtn.BackgroundColor3 = Color3.fromRGB(188, 45, 45)
+tbl.Autogunsbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tbl.Autogunsbtn.BorderSizePixel = 0
+tbl.Autogunsbtn.Position = UDim2.new(0.5, 0, 0.256000012, 0)
+tbl.Autogunsbtn.Size = UDim2.new(0.774999976, 0, 0.140000015, 0)
+tbl.Autogunsbtn.Font = Enum.Font.SourceSans
+tbl.Autogunsbtn.Text = "autogun"
+tbl.Autogunsbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+tbl.Autogunsbtn.TextScaled = true
+tbl.Autogunsbtn.TextSize = 14.000
+tbl.Autogunsbtn.TextWrapped = true
+
+tbl.Antitaserbtn.Name = "Antitaserbtn"
+tbl.Antitaserbtn.Parent = Frame
+tbl.Antitaserbtn.AnchorPoint = Vector2.new(0.5, 0)
+tbl.Antitaserbtn.BackgroundColor3 = Color3.fromRGB(188, 45, 45)
+tbl.Antitaserbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tbl.Antitaserbtn.BorderSizePixel = 0
+tbl.Antitaserbtn.Position = UDim2.new(0.5, 0, 0.656000018, 0)
+tbl.Antitaserbtn.Size = UDim2.new(0.774999976, 0, 0.140000015, 0)
+tbl.Antitaserbtn.Font = Enum.Font.SourceSans
+tbl.Antitaserbtn.Text = "antitaser"
+tbl.Antitaserbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+tbl.Antitaserbtn.TextScaled = true
+tbl.Antitaserbtn.TextSize = 14.000
+tbl.Antitaserbtn.TextWrapped = true
+
+tbl.AutoRespawnbtn.Name = "AutoRespawnbtn"
+tbl.AutoRespawnbtn.Parent = Frame
+tbl.AutoRespawnbtn.AnchorPoint = Vector2.new(0.5, 0)
+tbl.AutoRespawnbtn.BackgroundColor3 = Color3.fromRGB(188, 45, 45)
+tbl.AutoRespawnbtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tbl.AutoRespawnbtn.BorderSizePixel = 0
+tbl.AutoRespawnbtn.Position = UDim2.new(0.5, 0, 0.45600003, 0)
+tbl.AutoRespawnbtn.Size = UDim2.new(0.774999976, 0, 0.140000015, 0)
+tbl.AutoRespawnbtn.Font = Enum.Font.SourceSans
+tbl.AutoRespawnbtn.Text = "autore"
+tbl.AutoRespawnbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+tbl.AutoRespawnbtn.TextScaled = true
+tbl.AutoRespawnbtn.TextSize = 14.000
+tbl.AutoRespawnbtn.TextWrapped = true
+
+return tbl
