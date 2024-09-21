@@ -18,7 +18,7 @@ tbl.Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 38)
 tbl.Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 tbl.Frame.BorderSizePixel = 0
 tbl.Frame.Position = UDim2.new(0.00309789344, 0, 0.5, 0)
-tblFrame.Size = UDim2.new(0.123915739, 0, 0.314861447, 0)
+tbl.Frame.Size = UDim2.new(0.123915739, 0, 0.314861447, 0)
 
 tbl.TextBox.Parent = Frame
 tbl.TextBox.AnchorPoint = Vector2.new(0.5, 0)
