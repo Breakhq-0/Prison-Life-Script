@@ -1,0 +1,24 @@
+local cmds = {
+  "lk",
+  "unlk",
+  "k",
+  "kall",
+  "goto",
+  "view",
+  "unview",
+  "back"
+  "nex",
+  "cells",
+  "cbase",
+  "armory",
+  "office",
+  "cafe",
+  "yard",
+  "tower1",
+  "roof"
+  "guns",
+  "g",
+  "noroot",
+  "god",
+}
+return cmds
