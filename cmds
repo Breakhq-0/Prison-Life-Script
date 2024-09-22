@@ -15,7 +15,7 @@ local cmds = {
   "cafe",
   "yard",
   "tower1",
-  "roof"
+  "roof",
   "guns",
   "g",
   "noroot",
