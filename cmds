@@ -6,7 +6,7 @@ local cmds = {
   "goto",
   "view",
   "unview",
-  "back"
+  "back",
   "nex",
   "cells",
   "cbase",
