@@ -31,6 +31,6 @@ local cmds = {
   "antishield",
   "shield",
   "nodoors",
-   "doors",
+   "doors"
 }
 return cmds
