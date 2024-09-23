@@ -5,6 +5,8 @@ local cmds = {
   "k",
   "kall",
   "goto",
+  "to",
+  "t",
   "view",
   "unview",
   "back",
