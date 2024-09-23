@@ -1,7 +1,7 @@
 local cmds = {
   "lk",
   "unlk",
-   "unlkall",
+  "unlkall",
   "k",
   "kall",
   "goto",
@@ -21,5 +21,10 @@ local cmds = {
   "g",
   "noroot",
   "god",
+  "fullbright",
+  "fb",
+  "antishield",
+  "shield",
+  
 }
 return cmds
