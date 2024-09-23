@@ -1,6 +1,7 @@
 local cmds = {
   "lk",
   "unlk",
+   "unlkall",
   "k",
   "kall",
   "goto",
