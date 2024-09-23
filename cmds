@@ -1,8 +1,11 @@
 local cmds = {
   "lk",
+  "loopkill",
+  "unloopkill",
   "unlk",
   "unlkall",
   "k",
+  "kill",
   "kall",
   "goto",
   "to",
@@ -27,6 +30,7 @@ local cmds = {
   "fb",
   "antishield",
   "shield",
-  
+  "nodoors",
+   "doors",
 }
 return cmds
